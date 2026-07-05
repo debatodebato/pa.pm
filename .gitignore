@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (contain secrets)
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.save
+frontend/.env
+frontend/.env.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
